@@ -1,0 +1,32 @@
+{
+  "name": "webpackangular",
+  "version": "1.0.0",
+  "description": "angular and webpack testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikhilkesari/webpackangular"
+  },
+  "keywords": [
+    "webpack",
+    "angular"
+  ],
+  "author": "nikhil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilkesari/webpackangular/issues"
+  },
+  "homepage": "https://github.com/nikhilkesari/webpackangular#readme",
+  "devDependencies": {
+    "angular": "^1.6.8",
+    "eslint": "^4.14.0",
+    "eslint-config-google": "^0.9.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
